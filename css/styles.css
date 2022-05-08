@@ -352,6 +352,7 @@ hr {
 .focused-link:focus {
   color: #3ddefb;
   outline: 1px solid #3ddefb;
+  outline-offset: .2rem;
   -webkit-box-shadow: 5px 5px 50px 0px #3ddefb;
           box-shadow: 5px 5px 50px 0px #3ddefb;
   border-radius: 0.4rem;

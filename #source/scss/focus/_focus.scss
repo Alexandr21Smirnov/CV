@@ -1,6 +1,7 @@
 .focused-link:focus {
   color: $link;
   outline: 1px solid $link;
+  outline-offset: .2rem;
   box-shadow: 5px 5px 50px 0px $link;
   border-radius: 0.4rem;
 }
