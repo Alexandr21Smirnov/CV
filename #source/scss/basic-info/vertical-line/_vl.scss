@@ -1,0 +1,10 @@
+.vl {
+  border-left: 0.188rem solid $black;
+  min-height: 100%;
+}
+
+@media (max-width:  34.375em) {
+  .vl {
+     display: none;
+  }
+}
