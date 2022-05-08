@@ -1,0 +1,33 @@
+.personal-qualities-section {
+  @include flexbox();
+  flex-direction: column;
+}
+
+.personal-qualities-section__m {
+  margin-bottom: 1.875rem;
+}
+
+.personal-qualities-section__header {
+  font-size: 1.3em;
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 40.8em) {
+  .personal-qualities-section__header {
+     margin-bottom: 0.625rem;
+  }
+}
+
+.personal-qualities-section__header span {
+  background: $personal-qualites-title;
+  color: $black;
+  line-height: 1.5rem;
+}
+
+.personal-qualities-section__list {
+  padding-left: 0.625rem;
+}
+
+.personal-qualities-section__item:not(:last-child) {
+  margin-bottom: 0.625rem;
+}

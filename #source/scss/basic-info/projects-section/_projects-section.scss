@@ -1,0 +1,56 @@
+.projects-section__m {
+  margin-bottom: 1.875rem;
+}
+
+.projects-section__header {
+  font-size: 1.3em;
+  margin-bottom: 1.25rem;
+}
+
+.projects-section__header span {
+  background: $projects-title;
+  color: $black;
+}
+
+.project {
+  margin-left: 1.25rem;
+}
+
+.project__subtitle {
+  font-size: 1.1em;
+  margin-bottom: 0.625rem;
+  padding-top: 0.313rem;
+}
+
+.project__name {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 0.625rem;
+}
+
+.project__link {
+  display: block;
+  max-width: 11.25rem;
+  color: $link;
+  @include anim(0.3s, 0s);
+  margin-bottom: 0.625rem;
+  margin-left: 0.625rem;
+}
+
+.project__link:hover {
+  @include anim(0.3s, 0s);
+  text-decoration: underline;
+}
+
+.responibility-list {
+  margin-left: 0.625rem;
+}
+
+.responibility-list__item {
+  list-style: "\2012";
+  padding-left: 0.625rem;
+}
+
+.responibility-list__item:not(:last-child) {
+  margin-bottom: 0.625rem;
+}

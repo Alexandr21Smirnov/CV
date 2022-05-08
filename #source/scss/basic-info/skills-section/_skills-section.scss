@@ -1,0 +1,35 @@
+.skills-section {
+  @include flexbox;
+  flex-direction: column;
+}
+
+.skills-section__m {
+  margin-bottom: 1.875rem;
+}
+
+.skills-section__header {
+  font-size: 1.3rem;
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 53.125em) {
+  .skills-section__header {
+     margin-bottom: 0.625rem;
+  }
+}
+
+.skills-section__header span {
+  background: $skill-title;
+  color: $black;
+  line-height: 1.5rem;
+}
+
+.skills-list__item {
+  list-style: "\2713";
+  padding-left: 0.625rem;
+  margin-left: 1.25rem;
+}
+
+.skills-list__item:not(:last-child) {
+  margin-bottom: 0.625rem;
+}

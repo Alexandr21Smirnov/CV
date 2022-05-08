@@ -1,0 +1,28 @@
+.languages-section {
+  @include flexbox();
+  flex-direction: column;
+}
+
+.languages-section__header {
+  font-size: 1.3em;
+  margin-bottom: 0.938rem;
+}
+
+@media (max-width: 53.125em) {
+  .languages-section__header {
+     margin-bottom: 0.625rem;
+  }
+}
+
+.languages-section__header span {
+  background: $languages-title;
+  color: $black;
+}
+
+.languages-section__item {
+  padding-left: 0.625rem;
+}
+
+.languages-section__item:not(:last-child) {
+  margin-bottom: 0.625rem;
+}
