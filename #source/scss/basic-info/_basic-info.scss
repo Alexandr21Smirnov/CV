@@ -1,0 +1,28 @@
+.basic-info {
+  @include flexbox;
+  justify-content: space-between;
+}
+
+.basic-info__left-side {
+  @include flexbox;
+  flex-direction: column;
+  padding-right: 0.625rem;
+}
+
+.basic-info__right-side {
+  @include flexbox;
+  flex-direction: column;
+  padding-left: 0.625rem;
+}
+
+@media (max-width: 34.375em) {
+  .basic-info {
+    flex-direction: column;
+  }
+  .basic-info__left-side {
+     padding: 0;
+  }
+  .basic-info__right-side {
+     padding: 0;
+  }
+}
