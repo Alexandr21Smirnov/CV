@@ -1,0 +1,12 @@
+.resume-block__basic-info {
+  margin-top: 1.25rem;
+}
+
+@media (min-width: 34.375em) {
+    .resume-block__contact-info {
+      margin-bottom: 1.25rem;
+    }
+    .resume-block__basic-info {
+      margin-top: 1.875rem;
+    }
+}
