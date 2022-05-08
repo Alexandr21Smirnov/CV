@@ -1,0 +1,64 @@
+.education-section {
+  @include flexbox();
+  flex-direction: column;
+}
+
+.education-section__m {
+  margin-bottom: 1.875rem;
+}
+
+.education-section__header {
+  font-size: 1.3em;
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 53.125em) {
+  .education-section__header {
+    margin-bottom: 0.625rem;
+ }
+}
+
+.education-section__header span {
+  background: $education-title;
+  color: $black;
+}
+
+.education-section__item {
+  padding-left:  0.625rem;
+}
+
+.education-section__item:not(:last-child) {
+  margin-bottom: 1.25rem;
+}
+
+.courses__name {
+  margin-bottom:  0.625rem;
+}
+
+.university__name {
+  line-height: 20px;
+}
+
+.school__name {
+  line-height: 20px;
+}
+.courses__sertificate {
+  display: inline-block;
+  color: $link;
+  @include anim(0.3s, 0s);
+}
+
+.courses__sertificate:hover {
+  text-decoration: underline;
+  @include anim(0.3s, 0s);;
+}
+
+.durability {
+  display: block;
+  font-style: italic;
+  margin-bottom:  0.625rem;
+}
+
+.university__name {
+  margin-bottom: 0.625rem;
+}
