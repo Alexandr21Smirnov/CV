@@ -1,0 +1,70 @@
+.experiences-section {
+  @include flexbox();
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.experiences-section__m {
+  margin-bottom: 1.875rem;
+}
+
+.experiences-section__header {
+  font-size: 1.3em;
+  margin-bottom: 1.25rem;
+}
+
+.experiences-section__header span {
+  background: $experiences-title;
+  color: $black;
+}
+
+.experiences-section__item {
+  @include flexbox();
+  flex-direction: column;
+}
+
+.experiences-section__expierence-list {
+  padding-left: 0.625rem;
+}
+
+.expierence-list__m {
+  margin-bottom: 1.25rem;
+}
+
+.expierence-list__item:not(:last-child) {
+  margin-bottom: 0.625rem;
+}
+
+.expierence-list__durability {
+  padding-left: 0.625rem;
+  font-style: italic;
+}
+
+.expierence-list__name {
+  color: $dark-link;
+  font-size: 1.2rem;
+  display: inline-block;
+  @include anim(0.3s, 0s);
+}
+
+.expierence-list__name:hover {
+  @include translate(0.625rem);
+  @include anim(0.3s, 0s);
+}
+
+.text-decoration:hover {
+  text-decoration: underline;
+}
+
+.expierence-list__role {
+  padding-left: 0.625rem;
+}
+
+@media (max-width: 53.125em) {
+  .experiences-section__header {
+     margin-bottom: 0.625rem;
+  }
+  .expierence-list__m {
+    margin-bottom: 0.625rem;
+ }
+}
