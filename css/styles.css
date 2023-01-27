@@ -519,31 +519,31 @@ hr {
   flex-direction: column;
 }
 
-.experiences-section__expierence-list {
+.experiences-section__experience-list {
   padding-left: 0.625rem;
 }
 
-.expierence-list__m {
+.experience-list__m {
   margin-bottom: 1.25rem;
 }
 
-.expierence-list__item:not(:last-child) {
+.experience-list__item:not(:last-child) {
   margin-bottom: 0.625rem;
 }
 
-.expierence-list__durability {
+.experience-list__durability {
   padding-left: 0.625rem;
   font-style: italic;
 }
 
-.expierence-list__name {
+.experience-list__name {
   color: rgb(9, 137, 201);
   font-size: 1.2rem;
   display: inline-block;
   transition: all 0.3s ease 0s;
 }
 
-.expierence-list__name:hover {
+.experience-list__name:hover {
   transform: translate(0.625rem);
   transition: all 0.3s ease 0s;
 }
@@ -552,7 +552,7 @@ hr {
   text-decoration: underline;
 }
 
-.expierence-list__role {
+.experience-list__role {
   padding-left: 0.625rem;
 }
 
@@ -560,7 +560,7 @@ hr {
   .experiences-section__header {
     margin-bottom: 0.625rem;
   }
-  .expierence-list__m {
+  .experience-list__m {
     margin-bottom: 0.625rem;
   }
 }
