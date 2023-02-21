@@ -1,332 +1,452 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Alexandr Smirnov">
-  <meta name="description" content="Resume page">
-  <meta name="keywords" content="resume, CV, Alexandr Smirnov">
-  <meta name="googlebot" content="index,follow">
-  <meta name="robots" content="index,follow">
-  <link rel="icon" href="assets/favicon.ico">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Resume</title>
-</head>
-<body>
-  <div class="wrapper">
-    <main class="main-content main-content__m">
-       <div class="main-container">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alexandr Smirnov" />
+    <meta name="description" content="Resume page" />
+    <meta name="keywords" content="resume, CV, Alexandr Smirnov" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Resume</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <main class="main-content main-content__m">
+        <div class="main-container">
           <div class="resume-block">
-             <div class="resume-block__contact-info contact-info">
-                <img class="contact-info__avatar" src="assets/avatar.jpg" alt="Avatar">
-                <div class="contact-info__author">
-                   <h1 class="contact-info__header">Alexandr Smirnov</h1>
-                   <h2 class="contact-info__sub-header">Frontend developer</h2>
-                   <div class="contact-info__communication-block communication-block">
-                      <div class="communication-block__column">
-                         <div class="communication-block__item">
-                            <div class="communication-block__item-icon-wrapper">
-                               <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="calendar"
-                                  class="svg-inline--fa fa-calendar" role="img" xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 448 512">
-                                  <path fill="currentColor"
-                                     d="M152 64H296V24C296 10.75 306.7 0 320 0C333.3 0 344 10.75 344 24V64H384C419.3 64 448 92.65 448 128V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V128C0 92.65 28.65 64 64 64H104V24C104 10.75 114.7 0 128 0C141.3 0 152 10.75 152 24V64zM48 448C48 456.8 55.16 464 64 464H384C392.8 464 400 456.8 400 448V192H48V448z">
-                                  </path>
-                               </svg>
-                            </div>
-                            <span class="communication-block__item-data">31.03.2000</span>
-                         </div>
-                         <div class="communication-block__item">
-                           <div class="communication-block__item-icon-wrapper">
-                              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="location-dot"
-                                  class="svg-inline--fa fa-location-dot" role="img" xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 384 512">
-                                  <path fill="currentColor"
-                                     d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z">
-                                  </path>
-                               </svg>
-                           </div>
-                           <span class="communication-block__item-data">Kyiv, Ukraine</span>
-                        </div>
-                         <a class="communication-block__item communication-block__item-effect focused-link"
-                            rel="noopener noreferrer"
-                            href="https://github.com/Alexandr21Smirnov"
-                            target="_blank"
-                            tabindex="2">
-                            <span class="communication-block__item-icon-wrapper">
-                               <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
-                                  class="svg-inline--fa fa-github" role="img" xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 496 512">
-                                  <path fill="currentColor"
-                                     d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
-                                  </path>
-                               </svg>
-                            </span>
-                            <span class="communication-block__item-data">Alexandr21Smirnov</span>
-                         </a>
+            <div class="resume-block__contact-info contact-info">
+              <img
+                class="contact-info__avatar"
+                src="assets/avatar.jpg"
+                alt="Avatar"
+              />
+              <div class="contact-info__author">
+                <h1 class="contact-info__header">Alexander Smirnov</h1>
+                <h2 class="contact-info__sub-header">Frontend developer</h2>
+                <div
+                  class="contact-info__communication-block communication-block"
+                >
+                  <div class="communication-block__column">
+                    <div class="communication-block__item">
+                      <div class="communication-block__item-icon-wrapper">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          data-prefix="far"
+                          data-icon="calendar"
+                          class="svg-inline--fa fa-calendar"
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 448 512"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="M152 64H296V24C296 10.75 306.7 0 320 0C333.3 0 344 10.75 344 24V64H384C419.3 64 448 92.65 448 128V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V128C0 92.65 28.65 64 64 64H104V24C104 10.75 114.7 0 128 0C141.3 0 152 10.75 152 24V64zM48 448C48 456.8 55.16 464 64 464H384C392.8 464 400 456.8 400 448V192H48V448z"
+                          ></path>
+                        </svg>
                       </div>
-                      <div class="communication-block__column">
-                         <a class="communication-block__item communication-block__item-effect focused-link"
-                            rel="noopener noreferrer"
-                            href="mailto:smirnov.alexandr2171@gmail.com"
-                            target="_blank"
-                            tabindex="3">
-                            <span class="communication-block__item-icon-wrapper">
-                               <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
-                                  class="svg-inline--fa fa-envelope" role="img" xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 512 512">
-                                  <path fill="currentColor"
-                                     d="M256 352c-16.53 0-33.06-5.422-47.16-16.41L0 173.2V400C0 426.5 21.49 448 48 448h416c26.51 0 48-21.49 48-48V173.2l-208.8 162.5C289.1 346.6 272.5 352 256 352zM16.29 145.3l212.2 165.1c16.19 12.6 38.87 12.6 55.06 0l212.2-165.1C505.1 137.3 512 125 512 112C512 85.49 490.5 64 464 64h-416C21.49 64 0 85.49 0 112C0 125 6.01 137.3 16.29 145.3z">
-                                  </path>
-                               </svg>
-                            </span>
-                            <span class="communication-block__item-data">smirnov.alexandr2171@gmail.com</span>
-                         </a>
-                         <a class="communication-block__item communication-block__item-effect focused-link"
-                            rel="noopener noreferrer"
-                            href="tel:380971035599"
-                            target="_blank"
-                            tabindex="4">
-                            <span class="communication-block__item-icon-wrapper">
-                               <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="mobile-button"
-                                  class="svg-inline--fa fa-mobile-button" role="img"
-                                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                                  <path fill="currentColor"
-                                     d="M320 0H64C37.49 0 16 21.49 16 48v416C16 490.5 37.49 512 64 512h256c26.51 0 48-21.49 48-48v-416C368 21.49 346.5 0 320 0zM192 464c-17.75 0-32-14.25-32-32s14.25-32 32-32s32 14.25 32 32S209.8 464 192 464z">
-                                  </path>
-                               </svg>
-                            </span>
-                            <span class="communication-block__item-data">+38&#32;(097)&#32;103&#45;55&#45;99</span>
-                         </a>
-                         <a class="communication-block__item communication-block__item-effect focused-link"
-                            rel="noopener noreferrer"
-                            href="https://www.linkedin.com/in/oleksandr21smirnov/"
-                            target="_blank"
-                            tabindex="5">
-                            <span class="communication-block__item-icon-wrapper">
-                               <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook"
-                                  class="svg-inline--fa fa-linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 512 512">
-                                  <path fill="currentColor"
-                                      d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
-                                  </path>
-                               </svg>
-                            </span>
-                            <span class="communication-block__item-data">Alexandr Smirnov</span>
-                         </a>
+                      <span class="communication-block__item-data"
+                        >31.03.2000</span
+                      >
+                    </div>
+                    <div class="communication-block__item">
+                      <div class="communication-block__item-icon-wrapper">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          data-prefix="fas"
+                          data-icon="location-dot"
+                          class="svg-inline--fa fa-location-dot"
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 384 512"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"
+                          ></path>
+                        </svg>
                       </div>
-                   </div>
+                      <span class="communication-block__item-data"
+                        >Kyiv, Ukraine</span
+                      >
+                    </div>
+                    <a
+                      class="communication-block__item communication-block__item-effect focused-link"
+                      rel="noopener noreferrer"
+                      href="https://github.com/Alexandr21Smirnov"
+                      target="_blank"
+                      tabindex="2"
+                    >
+                      <span class="communication-block__item-icon-wrapper">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          data-prefix="fab"
+                          data-icon="github"
+                          class="svg-inline--fa fa-github"
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 496 512"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <span class="communication-block__item-data"
+                        >Alexandr21Smirnov</span
+                      >
+                    </a>
+                  </div>
+                  <div class="communication-block__column">
+                    <a
+                      class="communication-block__item communication-block__item-effect focused-link"
+                      rel="noopener noreferrer"
+                      href="mailto:smirnov.alexandr2171@gmail.com"
+                      target="_blank"
+                      tabindex="3"
+                    >
+                      <span class="communication-block__item-icon-wrapper">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          data-prefix="fas"
+                          data-icon="envelope"
+                          class="svg-inline--fa fa-envelope"
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 512 512"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="M256 352c-16.53 0-33.06-5.422-47.16-16.41L0 173.2V400C0 426.5 21.49 448 48 448h416c26.51 0 48-21.49 48-48V173.2l-208.8 162.5C289.1 346.6 272.5 352 256 352zM16.29 145.3l212.2 165.1c16.19 12.6 38.87 12.6 55.06 0l212.2-165.1C505.1 137.3 512 125 512 112C512 85.49 490.5 64 464 64h-416C21.49 64 0 85.49 0 112C0 125 6.01 137.3 16.29 145.3z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <span class="communication-block__item-data"
+                        >smirnov.alexandr2171@gmail.com</span
+                      >
+                    </a>
+                    <a
+                      class="communication-block__item communication-block__item-effect focused-link"
+                      rel="noopener noreferrer"
+                      href="tel:380971035599"
+                      target="_blank"
+                      tabindex="4"
+                    >
+                      <span class="communication-block__item-icon-wrapper">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          data-prefix="fas"
+                          data-icon="mobile-button"
+                          class="svg-inline--fa fa-mobile-button"
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 384 512"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="M320 0H64C37.49 0 16 21.49 16 48v416C16 490.5 37.49 512 64 512h256c26.51 0 48-21.49 48-48v-416C368 21.49 346.5 0 320 0zM192 464c-17.75 0-32-14.25-32-32s14.25-32 32-32s32 14.25 32 32S209.8 464 192 464z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <span class="communication-block__item-data"
+                        >+38&#32;(097)&#32;103&#45;55&#45;99</span
+                      >
+                    </a>
+                    <a
+                      class="communication-block__item communication-block__item-effect focused-link"
+                      rel="noopener noreferrer"
+                      href="https://www.linkedin.com/in/oleksandr21smirnov/"
+                      target="_blank"
+                      tabindex="5"
+                    >
+                      <span class="communication-block__item-icon-wrapper">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          data-prefix="fab"
+                          data-icon="facebook"
+                          class="svg-inline--fa fa-linkedin-in"
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 512 512"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <span class="communication-block__item-data"
+                        >Alexandr Smirnov</span
+                      >
+                    </a>
+                  </div>
                 </div>
-             </div>
-             <hr>
-             <div class="resume-block__basic-info basic-info">
-                <div class="basic-info__left-side">
-                      <section class="experiences-section experiences-section__m">
-                      <h3 class="experiences-section__header"><span>Experience</span></h3>
-                      <div class="experiences-section__item">
-                        <ul class="experiences-section__experience-list experience-list experience-list__m">
-                           <li class="experience-list__item">
-                             <a class="experience-list__name text-decoration focused-link"
-                                rel="noopener noreferrer"
-                                href="https://hygge.software/"
-                                target="_blank"
-                                tabindex="6"
-                              >
-                                 Hygge Software
-                              </a>
-                           </li>
-                           <li class="experience-list__item">
-                              <span class="experience-list__durability">June, 2022 - November, 2022 </span>
-                           </li>
-                           <li class="experience-list__item">
-                              <span class="experience-list__role">React developer</span>
-                           </li>
-                        </ul>
-                     </div>
-                      <div class="experiences-section__item">
-                        <ul class="experiences-section__experience-list experience-list experience-list__m">
-                           <li class="experience-list__item">
-                             <a class="experience-list__name text-decoration focused-link"
-                                rel="noopener noreferrer"
-                                href="https://binary-studio.com/"
-                                target="_blank"
-                                tabindex="7"
-                              >
-                                 Binary Studio
-                              </a>
-                           </li>
-                           <li class="experience-list__item">
-                              <span class="experience-list__durability">December, 2021 - April, 2022 </span>
-                           </li>
-                           <li class="experience-list__item">
-                              <span class="experience-list__role">Frontend developer</span>
-                           </li>
-                        </ul>
-                     </div>
-                      <div class="experiences-section__item">
-                         <ul class="experiences-section__experience-list experience-list experience-list__m">
-                            <li class="experience-list__item">
-                              <a class="experience-list__name text-decoration focused-link"
-                                 rel="noopener noreferrer"
-                                 href="https://freelance.habr.com/"
-                                 target="_blank"
-                                 tabindex="8"
-                                 >
-                                    freelance.habr
-                              </a>
-                            </li>
-                            <li class="experience-list__item">
-                               <span class="experience-list__durability">March, 2021 - December, 2021 </span>
-                            </li>
-                            <li class="experience-list__item">
-                               <span class="experience-list__role">Frontend developer</span>
-                            </li>
-                         </ul>
-                      </div>
-                      <div class="experiences-section__item">
-                        <ul class="experiences-section__experience-list experience-list">
-                           <li class="experience-list__item">
-                             <span class="experience-list__name">Sales manager</span>
-                           </li>
-                           <li class="experience-list__item">
-                              <span class="experience-list__durability">September, 2018 - February, 2021 </span>
-                           </li>
-                        </ul>
-                     </div>
-                       </section>
-                      <section class="education-section education-section__m">
-                         <h3 class="education-section__header"><span>Education</span></h3>
-                         <div class="education-section__item courses">
-                            <span class="courses__durability durability">December, 2021 - March, 2022</span>
-                            <p class="courses__name">Binary Studio Academy</p>
-                            <a class="courses__sertificate focused-link"
-                               rel="noopener noreferrer"
-                               href="https://study.binary-studio.com/certificate/84131606-0110-44fa-bcce-67fdffdabbfd"
-                               target="_blank"
-                               tabindex="9"
-                              >
-                                 Graduation Certificate
-                            </a>
-                          </div>
-                         <div class="education-section__item university">
-                            <span class="university__durability durability">2017-2021</span>
-                            <p class="university__name">Kyiv National University of
-                               Construction and Architecture</p>
-                            <div class="university__speciality">Speciality: Computer Engineering</div>
-                         </div>
-                         <div class="education-section__item school">
-                            <span class="school__durability durability">2007-2017</span>
-                            <p class="school__name"> Bila Tserkva Specialized School №12
-                               with in-depth study of information technology</p>
-                         </div>
-                      </section>
-                      <section class="projects-section projects-section__m">
-                        <h3 class="projects-section__header"><span>Projects</span></h3>
-                        <div class="projects-section__item project">
-                          <p class="project__name">Grow Up</p>
-                          <a class="project__link focused-link"
-                             rel="noopener noreferrer"
-                             href="https://bsa-growup.herokuapp.com/"
-                             target="_blank"
-                             tabindex="10"
-                             >
-                              Grow Up service
-                           </a>
-                          <a class="project__link focused-link"
-                             rel="noopener noreferrer"
-                             href="https://growup-landing.herokuapp.com/"
-                             target="_blank"
-                             tabindex="11">
-                              Grow Up landing page
-                           </a>
-                          <a class="project__link focused-link"
-                             rel="noopener noreferrer"
-                             href="https://github.com/BinaryStudioAcademy/bsa-winter-2022-growup"
-                             target="_blank"
-                             tabindex="12"
-                             >
-                              Grow Up GitHub
-                           </a>
-                          <div class="project__subtitle">My responsibility</div>
-                          <ul class="project__list responibility-list">
-                            <li class="responibility-list__item">Sidebar section</li>
-                            <li class="responibility-list__item">Header section</li>
-                            <li class="responibility-list__item">Interests section</li>
-                            <li class="responibility-list__item">Main layout</li>
-                            <li class="responibility-list__item">Different fixes and bugs</li>
-                          </ul>
-                        </div>
-                     </section>
-                </div>
-                <div class="vl"></div>
-                   <div class="basic-info__right-side">
-                      <section class="skills-section skills-section__m">
-                         <h3 class="skills-section__header"><span>Technology Stack</span></h3>
-                         <ul class="skills-section__list skills-list">
-                            <li class="skills-list__item">
-                               HTML5
-                            </li>
-                            <li class="skills-list__item">
-                               CSS3
-                            </li>
-                            <li class="skills-list__item">
-                               JS (ES6+)
-                            </li>
-                            <li class="skills-list__item">
-                              TypeScript
-                          </li>
-                            <li class="skills-list__item">
-                              React
-                           </li>
-                           <li class="skills-list__item">
-                              Redux
-                            </li>
-                            <li class="skills-list__item">
-                              Ant Design
-                           </li>
-                           <li class="skills-list__item">
-                              MUI
-                           </li>
-                            <li class="skills-list__item">
-                               SCSS
-                            </li>
-                            <li class="skills-list__item">
-                              Bootstrap
-                           </li>
-                            <li class="skills-list__item">
-                               Webpack
-                            </li>
-                            <li class="skills-list__item">
-                               PostgreSQL
-                            </li>
-                            <li class="skills-list__item">
-                               GIT
-                            </li>
-                         </ul>
-                      </section>
-                      <section class="personal-qualities-section personal-qualities-section__m">
-                         <h3 class="personal-qualities-section__header"><span>Personal Qualities</span></h3>
-                         <ul class="personal-qualities-section__list">
-                            <li class="personal-qualities-section__item">Responsible</li>
-                            <li class="personal-qualities-section__item">Fast learner</li>
-                            <li class="personal-qualities-section__item">Stress tolerance</li>
-                         </ul>
-                      </section>
-                      <section class="languages-section">
-                         <h3 class="languages-section__header"><span>Languages</span></h3>
-                         <div class="languages-section__item">
-                            Українська
-                         </div>
-                         <div class="languages-section__item">
-                            English (B2)
-                         </div>
-                      </section>
-                   </div>
-             </div>
+              </div>
+            </div>
+            <hr />
+            <div class="resume-block__basic-info basic-info">
+              <div class="basic-info__left-side">
+                <section class="experiences-section experiences-section__m">
+                  <h3 class="experiences-section__header">
+                    <span>Experience</span>
+                  </h3>
+                  <div class="experiences-section__item">
+                    <ul
+                      class="experiences-section__experience-list experience-list experience-list__m"
+                    >
+                      <li class="experience-list__item">
+                        <a
+                          class="experience-list__name text-decoration focused-link"
+                          rel="noopener noreferrer"
+                          href="https://www.upwork.com/"
+                          target="_blank"
+                          tabindex="5"
+                        >
+                          upwork.com
+                        </a>
+                      </li>
+                      <li class="experience-list__item">
+                        <span class="experience-list__durability"
+                          >December, 2022 - present
+                        </span>
+                      </li>
+                      <li class="experience-list__item">
+                        <span class="experience-list__role"
+                          >Frontend developer</span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="experiences-section__item">
+                    <ul
+                      class="experiences-section__experience-list experience-list experience-list__m"
+                    >
+                      <li class="experience-list__item">
+                        <a
+                          class="experience-list__name text-decoration focused-link"
+                          rel="noopener noreferrer"
+                          href="https://hygge.software/"
+                          target="_blank"
+                          tabindex="6"
+                        >
+                          Hygge Software
+                        </a>
+                      </li>
+                      <li class="experience-list__item">
+                        <span class="experience-list__durability"
+                          >June, 2022 - November, 2022
+                        </span>
+                      </li>
+                      <li class="experience-list__item">
+                        <span class="experience-list__role"
+                          >React developer</span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="experiences-section__item">
+                    <ul
+                      class="experiences-section__experience-list experience-list experience-list__m"
+                    >
+                      <li class="experience-list__item">
+                        <a
+                          class="experience-list__name text-decoration focused-link"
+                          rel="noopener noreferrer"
+                          href="https://binary-studio.com/"
+                          target="_blank"
+                          tabindex="7"
+                        >
+                          Binary Studio
+                        </a>
+                      </li>
+                      <li class="experience-list__item">
+                        <span class="experience-list__durability"
+                          >December, 2021 - April, 2022
+                        </span>
+                      </li>
+                      <li class="experience-list__item">
+                        <span class="experience-list__role"
+                          >Frontend developer</span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="experiences-section__item">
+                    <ul
+                      class="experiences-section__experience-list experience-list experience-list__m"
+                    >
+                      <li class="experience-list__item">
+                        <a
+                          class="experience-list__name text-decoration focused-link"
+                          rel="noopener noreferrer"
+                          href="https://freelance.habr.com/"
+                          target="_blank"
+                          tabindex="8"
+                        >
+                          freelance.habr
+                        </a>
+                      </li>
+                      <li class="experience-list__item">
+                        <span class="experience-list__durability"
+                          >March, 2021 - December, 2021
+                        </span>
+                      </li>
+                      <li class="experience-list__item">
+                        <span class="experience-list__role"
+                          >Frontend developer</span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+                <section class="education-section education-section__m">
+                  <h3 class="education-section__header">
+                    <span>Education</span>
+                  </h3>
+                  <div class="education-section__item courses">
+                    <span class="courses__durability durability"
+                      >December, 2021 - March, 2022</span
+                    >
+                    <p class="courses__name">Binary Studio Academy</p>
+                    <a
+                      class="courses__sertificate focused-link"
+                      rel="noopener noreferrer"
+                      href="https://study.binary-studio.com/certificate/84131606-0110-44fa-bcce-67fdffdabbfd"
+                      target="_blank"
+                      tabindex="9"
+                    >
+                      Graduation Certificate
+                    </a>
+                  </div>
+                  <div class="education-section__item university">
+                    <span class="university__durability durability"
+                      >2017-2021</span
+                    >
+                    <p class="university__name">
+                      Kyiv National University of Construction and Architecture
+                    </p>
+                    <div class="university__speciality">
+                      Speciality: Computer Engineering
+                    </div>
+                  </div>
+                  <div class="education-section__item school">
+                    <span class="school__durability durability">2007-2017</span>
+                    <p class="school__name">
+                      Bila Tserkva Specialized School №12 with in-depth study of
+                      information technology
+                    </p>
+                  </div>
+                </section>
+                <section class="projects-section projects-section__m">
+                  <h3 class="projects-section__header">
+                    <span>Projects</span>
+                  </h3>
+                  <div class="projects-section__item project">
+                    <p class="project__name">Grow Up</p>
+                    <a
+                      class="project__link focused-link"
+                      rel="noopener noreferrer"
+                      href="https://bsa-growup.herokuapp.com/"
+                      target="_blank"
+                      tabindex="10"
+                    >
+                      Grow Up service
+                    </a>
+                    <a
+                      class="project__link focused-link"
+                      rel="noopener noreferrer"
+                      href="https://growup-landing.herokuapp.com/"
+                      target="_blank"
+                      tabindex="11"
+                    >
+                      Grow Up landing page
+                    </a>
+                    <a
+                      class="project__link focused-link"
+                      rel="noopener noreferrer"
+                      href="https://github.com/BinaryStudioAcademy/bsa-winter-2022-growup"
+                      target="_blank"
+                      tabindex="12"
+                    >
+                      Grow Up GitHub
+                    </a>
+                    <div class="project__subtitle">My responsibility</div>
+                    <ul class="project__list responibility-list">
+                      <li class="responibility-list__item">Sidebar section</li>
+                      <li class="responibility-list__item">Header section</li>
+                      <li class="responibility-list__item">
+                        Interests section
+                      </li>
+                      <li class="responibility-list__item">Main layout</li>
+                      <li class="responibility-list__item">
+                        Different fixes and bugs
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+              </div>
+              <div class="vl"></div>
+              <div class="basic-info__right-side">
+                <section class="skills-section skills-section__m">
+                  <h3 class="skills-section__header">
+                    <span>Technology Stack</span>
+                  </h3>
+                  <ul class="skills-section__list skills-list">
+                    <li class="skills-list__item">HTML5</li>
+                    <li class="skills-list__item">CSS3</li>
+                    <li class="skills-list__item">JS (ES6+)</li>
+                    <li class="skills-list__item">TypeScript</li>
+                    <li class="skills-list__item">React</li>
+                    <li class="skills-list__item">Redux</li>
+                    <li class="skills-list__item">Ant Design</li>
+                    <li class="skills-list__item">MUI</li>
+                    <li class="skills-list__item">SCSS</li>
+                    <li class="skills-list__item">Bootstrap</li>
+                    <li class="skills-list__item">Webpack</li>
+                    <li class="skills-list__item">PostgreSQL</li>
+                    <li class="skills-list__item">GIT</li>
+                  </ul>
+                </section>
+                <section
+                  class="personal-qualities-section personal-qualities-section__m"
+                >
+                  <h3 class="personal-qualities-section__header">
+                    <span>Personal Qualities</span>
+                  </h3>
+                  <ul class="personal-qualities-section__list">
+                    <li class="personal-qualities-section__item">
+                      Responsible
+                    </li>
+                    <li class="personal-qualities-section__item">
+                      Fast learner
+                    </li>
+                    <li class="personal-qualities-section__item">
+                      Stress tolerance
+                    </li>
+                  </ul>
+                </section>
+                <section class="languages-section">
+                  <h3 class="languages-section__header">
+                    <span>Languages</span>
+                  </h3>
+                  <div class="languages-section__item">Українська</div>
+                  <div class="languages-section__item">English (B2)</div>
+                </section>
+              </div>
+            </div>
           </div>
-       </div>
-    </main>
- </div>
-</body>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
