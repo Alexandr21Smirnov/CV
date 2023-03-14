@@ -27,6 +27,10 @@
   font-weight: bold;
   margin-bottom: 0.625rem;
 }
+.project__description {
+  max-width: 38rem;
+  margin-bottom: 0.625rem;
+}
 
 .project__link {
   display: block;
@@ -34,7 +38,6 @@
   color: $link;
   @include anim(0.3s, 0s);
   margin-bottom: 0.625rem;
-  margin-left: 0.625rem;
 }
 
 .project__link:hover {
@@ -47,7 +50,7 @@
 }
 
 .responibility-list__item {
-  list-style: "\2012";
+  list-style: '\2012';
   padding-left: 0.625rem;
 }
 

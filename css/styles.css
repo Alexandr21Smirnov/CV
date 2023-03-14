@@ -406,13 +406,17 @@ hr {
   margin-bottom: 0.625rem;
 }
 
+.project__description {
+  max-width: 38rem;
+  margin-bottom: 0.625rem;
+}
+
 .project__link {
   display: block;
   max-width: 11.25rem;
   color: rgb(61, 222, 251);
   transition: all 0.3s ease 0s;
   margin-bottom: 0.625rem;
-  margin-left: 0.625rem;
 }
 
 .project__link:hover {
@@ -519,7 +523,7 @@ hr {
   flex-direction: column;
 }
 
-.experiences-section__experience-list {
+.experiences-section__expierence-list {
   padding-left: 0.625rem;
 }
 
