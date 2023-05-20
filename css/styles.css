@@ -192,16 +192,6 @@ hr {
     padding-left: 1.875rem;
   }
 }
-@media (max-width: 53.125em) {
-  .contact-info {
-    flex-direction: column;
-  }
-  .contact-info__author {
-    order: -1;
-    padding-left: 0px;
-    margin-bottom: 1.5rem;
-  }
-}
 @media (max-width: 34.375em) {
   .contact-info__communication-block {
     flex-direction: column;
@@ -242,6 +232,18 @@ hr {
   transform: scale(1.07);
 }
 
+@media (max-width: 53.125em) {
+  .contact-info {
+    flex-direction: column;
+  }
+  .contact-info__author {
+    order: -1;
+    padding-left: 0px;
+  }
+  .contact-info__avatar {
+    display: none;
+  }
+}
 @media (max-width: 34.375em) {
   .contact-info__avatar {
     display: none;
@@ -341,6 +343,14 @@ hr {
     display: none;
   }
 }
+.about-section {
+  font-size: 1.2rem;
+}
+
+.about-section__m {
+  margin-top: 1.25rem;
+}
+
 .skills-section {
   display: flex;
   flex-direction: column;
