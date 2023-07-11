@@ -1,0 +1,33 @@
+.expectations-section {
+  @include flexbox();
+  flex-direction: column;
+}
+
+.expectations-section__m {
+  margin-bottom: 1.875rem;
+}
+
+.expectations-section__header {
+  font-size: 1.3em;
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 40.8em) {
+  .expectations-section__header {
+    margin-bottom: 0.625rem;
+  }
+}
+
+.expectations-section__header span {
+  background: $expectations-title;
+  color: $black;
+  line-height: 1.5rem;
+}
+
+.expectations-section__list {
+  padding-left: 0.625rem;
+}
+
+.expectations-section__item:not(:last-child) {
+  margin-bottom: 0.625rem;
+}
