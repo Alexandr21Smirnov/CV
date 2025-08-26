@@ -62,11 +62,11 @@
 
 @media (max-width: 53.125em) {
   .experiences-section__header {
-     margin-bottom: 0.625rem;
+    margin-bottom: 0.625rem;
   }
   .experience-list__m {
     margin-bottom: 0.625rem;
- }
+  }
 }
 
 .experience-list__description {
@@ -75,4 +75,12 @@
 
 .description__item {
   margin-bottom: 10px;
+  line-height: 1.5rem;
+}
+
+.experience-list__meta {
+  font-style: italic;
+  padding-left: 0.5em;
+  display: block;
+  margin-bottom: 0.3em;
 }
